@@ -1,0 +1,33 @@
+/* comments written in css */
+/* css stands for Cascading Style Sheet */
+/* In hefre we can declare "Classes" and "ids"  */
+/* Classes can be shared among elemnets, ids are unique to just one */
+/* here is how you declare a class,note the dot notation */
+/*The Class is what we refer to as a selector */
+
+.myClass{
+    /* Within our selectors we have declaration */
+    /* declarations contain a property and a value for that property */
+    color:red;
+    /*One selctor can have many declaration */
+    font-size: 3rem;
+}
+/*Below is how you'd call an Id, note the pound notation */
+#myId{
+    
+}
+/*You can also target tags themselves */
+div{
+
+}
+/*Additionally , you can target with specification such as all p tags within divs */
+div > p{
+
+}
+/*you van have mul selectors using commas */
+/* You can also select multiple selectors using commas  */
+/* Note that it's bad practice to leave selections blank */
+/* If you have blank selections, you might want to delete it */
+div,p{
+
+}

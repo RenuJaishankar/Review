@@ -1,0 +1,74 @@
+<!-- THis declaration lets the browser know which version of HJTML you are using-->
+<!DOCTYPE html>
+<!--html stands for hypertext markup language-->
+<!--html is not a programming language,it is a declarative language-->
+<!--The html tag dictates the start of your html webpage-->
+<!--the html tag -->
+<html lang="en">
+<head>
+  <!--Each page should have a "head." Heads are tags that contains metadata-->  
+  <!--It is also where we would link major Javascript and css files-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--The link to a stylesheet is done by using a Link tag-->
+    <Link rel="stylesheet" href="style.css">
+    <!--In contrast we use the tag script to link a script fiel-->
+    <script src="script.js " defer></script>
+</head>
+<!-- The body contains anything that will be actively rendered by the page-->
+<body>
+   <!--In html you use tags to declaratively add contents to your page--> 
+<!-- Tags can take many forms and usually come in many varietie (h6)s-->
+<!-- When we call a tag on a page,we're creating what's called an element-->
+<!-- Elements can also be refered to as nodes-->
+<!-- The heading tag can go from biggest (h1) to smallest-->
+<h1> This is a header</h1>
+<h3>This is a smaller header</h3>
+
+<!--probably the most used tag and a basic building block of  apage would be a div tag-->
+<!-- You can say that div stands for division -->
+<!-- By default, divs are considered block elements-->
+    <!-- Block elements will occupy an entire width's length of a webpage-->
+<div>
+    <h1>
+        This header is inside div.
+    </h1>
+</div>
+<!-- By default,div are considered block elements -->
+<!--Block elements will occupy and entire width's length of a web page-->
+
+<!--certain tags,like span are inline elements which means they will share the row with other elements-->
+<div>
+    <p>
+ <!--span is used to target elements inside of a block level element-->
+ This is my paragraph! <span>This is a span in my paragraph!</span>
+
+   
+    </p>
+</div>
+<!--semantic are encouraged-->
+<!--examples-->
+<section></section>
+<aside></aside>
+<nav>
+
+</nav>
+<footer></footer>
+<article>
+
+</article>
+<header></header>
+<!-- any element that clearly defines its function or purpose can be considered semantic-->
+
+    <!-- CSS -->
+    <!-- all elements can have a property that is refered to as an attribute-->
+    <!-- two major attributes are id= and class=-->
+    <!-- these will refer to CSS values-->
+    <div>
+        <p class="myClass">
+            This is a custom paragraph. 
+        </p>
+    </div>
+</body>
+</html>
